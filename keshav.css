@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 81%;
+    height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-list li{
+     list-style: none;
+    padding: 23px;
+    color: #333;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(0 255 220);
+}
+
+.nav-list li a:hover{
+    color: gray;
+}
+
+.rightnav{
+    align-content: auto;
+    text-align: right;
+    padding: 0 23px;
+    width: 113%;
+    padding: 9px;
+    padding-right: 30px;
+    color: var(--font-color-primary);
+}
+img {
+    border-radius: 74px;
+    height: 46px;
+}
+
+select, input {
+    width: 20%;
+    border: 1px solid #ce1111;
+    padding: 10px;
+    padding-right: 30px;
+    color: var(--font-color-primary);
+}
